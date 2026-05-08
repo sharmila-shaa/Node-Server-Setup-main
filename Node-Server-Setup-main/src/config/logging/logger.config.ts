@@ -1,5 +1,5 @@
 import winston from "winston";
-import CONFIG from "../index.config.js";
+import CONFIG from "../index.config";
 
 const isDev = CONFIG.NODE_ENV === "development";
 

@@ -42,8 +42,8 @@
 // export default app;
 import express from "express";
 
-import indexRouter from "./routes/index.routes.js";
-import helloRoutes from "./routes/hello.routes.js";
+import indexRouter from "./routes/index.routes";
+import helloRoutes from "./routes/hello.routes";
 
 const app = express();
 

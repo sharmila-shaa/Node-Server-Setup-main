@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-import CONFIG from "../config/index.config.js";
+import CONFIG from "../config/index.config";
 
 export const welcome = (req: Request, res: Response) => {
   return res.status(200).json({
