@@ -4,7 +4,7 @@ export const checkEvenOdd = (req: Request, res: Response) => {
 
   // safe fallback
   const number = req.body.number;
-  console.log("Number received:", number);
+
   // validation
   if (number === undefined) {
     return res.status(400).json({
