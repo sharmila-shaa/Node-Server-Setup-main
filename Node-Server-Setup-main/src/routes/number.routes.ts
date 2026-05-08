@@ -1,6 +1,6 @@
 import express from "express";
 import { Router } from "express";
-import { checkEvenOdd } from "../controller/number.controller.js";
+import { checkEvenOdd } from "../controller/number.controller";
 
 const numberRouter = Router();
 

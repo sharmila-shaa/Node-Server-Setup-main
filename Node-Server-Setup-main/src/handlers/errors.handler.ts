@@ -1,4 +1,4 @@
-import logger from "../config/logging/logger.config.js";
+import logger from "../config/logging/logger.config";
 import { Request, Response, NextFunction } from "express";
 
 import { errorServerResponse } from "./serverResponse.handler.js";

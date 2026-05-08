@@ -11,8 +11,8 @@
 
 // setupGracefulShutdown(server);
 
-import app from "./server.js";
-import CONFIG from "./config/index.config.js";
+import app from "./server";
+import CONFIG from "./config/index.config";
 
 const PORT = CONFIG.PORT;
 

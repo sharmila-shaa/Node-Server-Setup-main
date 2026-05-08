@@ -1,5 +1,5 @@
-import CONFIG from "../config/index.config.js";
-import { PrismaClient } from "../generated/prisma/client.js";
+import CONFIG from "../config/index.config";
+import { PrismaClient } from "../generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 import logger from "../config/logging/logger.config.js";
 

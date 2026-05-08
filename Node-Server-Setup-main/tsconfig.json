@@ -2,7 +2,7 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     "target": "es2022",
-    "module": "nodenext",
+    "module": "commonjs",
     "rootDir": "./src",
     "outDir": "./dist",
     "esModuleInterop": true,
@@ -11,7 +11,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "typeRoots": ["./src/types", "./node_modules/@types"],
-    "moduleResolution": "nodenext"
+    "moduleResolution": "node"
   },
   "exclude": ["prisma.config.ts"]
 }
