@@ -11,10 +11,18 @@
 
 // setupGracefulShutdown(server);
 
-import app from "./server.js";
-import CONFIG from "./config/index.config.js";
+// import app from "./server.js";
+// import CONFIG from "./config/index.config.js";
 
-const PORT = CONFIG.PORT;
+// // const PORT = CONFIG.PORT;
+// const PORT = process.env.PORT || 3000;
+
+// app.listen(PORT, () => {
+//   console.log(`Server running on port ${PORT}`);
+// });
+import app from "./server";
+
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
